@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="30dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="관리자 페이지"
+        android:textColor="#fff"
+        android:background="@drawable/tv_background"
+        android:textSize="40dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/administrater" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_기업등록"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="기업등록" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/button_기업정보수정"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="기업정보수정" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/button_부문등록"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="모집부문 등록" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/button_부문수정"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="모집부문 수정" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button_부문뒤로"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:text="뒤로" />
+
+</LinearLayout>

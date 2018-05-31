@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_background"
+        android:text="개인정보 수정"
+        android:layout_marginBottom="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_modify_학번"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="학번" />
+
+        <EditText
+            android:id="@+id/editText_modify_학번"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_modify_학생명"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="성명" />
+
+        <EditText
+            android:id="@+id/editText_modify_학생명"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_modify_비밀번호"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="비밀번호" />
+
+        <EditText
+            android:id="@+id/editText_modify_비밀번호"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_modify_학과"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="학과" />
+
+        <Spinner
+            android:id="@+id/spinner_modify_학과"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/학과" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_modify_학점"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="학점" />
+
+        <EditText
+            android:id="@+id/editText_modify_학점"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/textView_modify_토익성적"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="토익성적" />
+
+<EditText
+    android:id="@+id/editText_modify_토익성적"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="text" />
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/textView_modify_자격증"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="자격증 갯수" />
+
+<EditText
+    android:id="@+id/editText_modify_자격증"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="text" />
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/textView_modify_인턴경험"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="인턴경험 횟수" />
+
+<EditText
+    android:id="@+id/editText_modify_인턴경험"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="text" />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_수정완료"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_background"
+            android:text="완료" />
+
+        <Button
+            android:id="@+id/button_수정취소"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="뒤로" />
+
+    </LinearLayout>
+
+</LinearLayout>

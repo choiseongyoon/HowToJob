@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="기업정보 수정"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:background="#191970"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_modify_기업명"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="기업명" />
+
+        <EditText
+            android:id="@+id/editText_modify_기업명"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_modify_기업형태"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="기업형태" />
+
+        <Spinner
+            android:id="@+id/spinner_modify_기업형태"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/기업형태" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_modify_산업군"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="산업군" />
+
+        <Spinner
+            android:id="@+id/spinner_modify_산업군"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/산업군" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_modify_본사근무지"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="본사 근무지" />
+
+        <Spinner
+            android:id="@+id/spinner_modify_본사근무지"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/본사근무지" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_modify_특이사항"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="특이사항" />
+
+        <EditText
+            android:id="@+id/editText_modify_특이사항"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_modify_수정완료"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_background"
+            android:text="완료" />
+
+        <Button
+            android:id="@+id/button_modify_취소"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:text="뒤로" />
+    </LinearLayout>
+
+</LinearLayout>

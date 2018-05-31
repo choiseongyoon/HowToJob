@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="기업정보 입력"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:background="@drawable/tv_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView_insert_기업명"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="기업명" />
+
+        <EditText
+            android:id="@+id/editText_insert_기업명"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_insert_기업형태"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="기업형태" />
+
+        <Spinner
+            android:id="@+id/spinner_insert_기업형태"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/기업형태" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_insert_산업군"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="산업군" />
+
+        <Spinner
+            android:id="@+id/spinner_insert_산업군"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/산업군" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="본사 근무지" />
+
+        <Spinner
+            android:id="@+id/spinner_insert_본사근무지"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/본사근무지" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_insert_특이사항"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="특이사항" />
+
+        <EditText
+            android:id="@+id/editText_insert_특이사항"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/button_insert_기업등록"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_background"
+            android:text="기업등록" />
+
+        <Button
+            android:id="@+id/button_insert_취소"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_background"
+            android:text="뒤로" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

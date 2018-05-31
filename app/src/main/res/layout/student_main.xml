@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="30dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/mypage_1" />
+    <TextView
+        android:id="@+id/textView_나의정보"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="30dp"
+        android:text="나의 정보" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:stretchColumns="*"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/border"
+                android:text="학번" />
+
+            <TextView
+                android:id="@+id/textView_학번"
+                android:layout_margin="1dp"
+                android:gravity="left" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_margin="1dp"
+                android:background="@drawable/border"
+                android:text="성명" />
+
+            <TextView
+                android:id="@+id/textView_학생명"
+                android:layout_margin="1dp"
+                android:gravity="left" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_margin="1dp"
+                android:background="@drawable/border"
+                android:text="학과" />
+
+            <TextView
+                android:id="@+id/textView_학과"
+                android:layout_margin="1dp"
+                android:gravity="left" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_margin="1dp"
+                android:background="@drawable/border"
+                android:text="학점" />
+
+            <TextView
+                android:id="@+id/textView_학점"
+                android:layout_margin="1dp"
+                android:gravity="left" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_margin="1dp"
+                android:background="@drawable/border"
+                android:text="토익성적" />
+
+            <TextView
+                android:id="@+id/textView_토익성적"
+                android:layout_margin="1dp"
+                android:gravity="left" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_margin="1dp"
+                android:background="@drawable/border"
+                android:text="자격증" />
+
+            <TextView
+                android:id="@+id/textView_자격증"
+                android:layout_margin="1dp"
+                android:gravity="left" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_margin="1dp"
+                android:background="@drawable/border"
+                android:text="인턴 경험" />
+
+            <TextView
+                android:id="@+id/textView_인턴경험"
+                android:layout_margin="1dp"
+                android:gravity="left" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:text="지원 내역" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:stretchColumns="*"
+        android:background="@drawable/border">>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border">
+
+        <TextView
+        android:id="@+id/textView_지원부문1"
+        android:layout_margin="1dp"
+            android:background="@drawable/border"
+
+        android:text="지원기업" />
+        <TextView
+            android:id="@+id/textView_지원회사1"
+            android:layout_margin="1dp"
+            android:text="지원부문" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border">
+        <TextView
+        android:id="@+id/textView_지원회사"
+            android:background="@drawable/border"
+        android:layout_margin="1dp"
+        android:text="지원회사" />
+
+        <TextView
+            android:id="@+id/textView_지원부문"
+            android:layout_margin="1dp"
+            android:text="지원부문" />
+    </TableRow>
+
+
+</TableLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+         android:id="@+id/회원정보수정"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_background"
+        android:text="회원정보수정" />
+
+    <Button
+        android:id="@+id/button_기업검색및지원"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_background"
+        android:text="기업 검색 " />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:text="뒤로" />
+
+    </LinearLayout>
+</LinearLayout>
